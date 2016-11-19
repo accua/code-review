@@ -2,15 +2,8 @@ body {
   background-color: #190540;
 }
 
-h1 h2 {
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  font-size: 100px;
-  background-color: #fff;
-  padding: 50px;
-  border-radius: 6px;
-  margin-top: 50px;
-  margin-bottom: 75px;
+h2 {
+  color: #FFF
 }
 
 h3 {
@@ -18,6 +11,7 @@ h3 {
   line-height: 2;
   font-family: 'Josefin Slab', serif;
   color: #FFF;
+  padding-bottom: 75px;
 }
 
 .image {
@@ -27,14 +21,16 @@ h3 {
 }
 
 #text-overlay span {
+  opacity: 0.6;
   color: white;
   font-family: 'Josefin Slab', serif;
+  font-size: 200%;
   letter-spacing: -1px;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 1)
+  background: rgba(0, 0, 0, 0.1)
   padding: 10px;
   position: absolute;
-  top: 360px;
+  top: 315px;
   left: 0;
   width: 100%;
 }
