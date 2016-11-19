@@ -1,15 +1,29 @@
-<div class="jumbotron">
-  <div class="header">
-    <h1>Find your word!</h1>
-  </div>
-</div>
 <form action='/find' method="post">
-  <div class="form-group">
-    <h3>Enter a sentence, and choose a word. The next page will tell you how many times that word appears in the sentence you used!</h3>
-    <input id="sentence" name="sentence" class="form-control" type="text" placeholder="Enter a sentence.">
-  </div><br>
-  <div class="form-group">
-    <input id="word" name="word" class="form-control" type="text" placeholder="Enter a word.">
+  <div class="image">
+    <img class="img-responsive" src="/book2.jpg">
+    <h2 id="text-overlay"><span>Find your word.<span class = "spacer"></span></h2>
   </div>
-  <button type="submit" class="btn">Go!</button>
+  <h3>Enter a sentence, and choose a word. The next page will tell you how many times that word appears in the sentence you used!</h3>
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+      <div class="form-group">
+        <input id="sentence" name="sentence" class="form-control" type="text" placeholder="Enter a sentence.">
+      </div><br>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+      <div class="form-group">
+        <input id="word" name="word" class="form-control" type="text" placeholder="Enter a word.">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+      <button type="submit" class="btn">Go!</button>
+    </div>
+  </div>
+
 </form>
