@@ -12,6 +12,6 @@ describe("String#find") do
     expect("cat cat cat.".find("cat")).to(eq(3))
   end
   it("Will count the word even if it is inside quotes") do
-    expect('cat! "cat" cat. cat?'.find("cat")).to(eq(4))
+    expect('cat! "cat" cat. CAT?'.find("cat")).to(eq(4))
   end
 end
