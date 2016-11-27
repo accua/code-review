@@ -13,6 +13,13 @@ _This webapp is called "Find". The purpose of this application is to showcase my
 
 ## Setup/Installation Requirements
 
+### How to install locally:
+* _Clone the repository down._
+* _Find the directory in terminal._
+* _Run the command "bundle install" to install the required gems._
+* _Run the command "ruby app.rb" to host the app on sinatra._
+* _Access localhost:4567 in your web browser, and the app should appear._
+### OR
 * _[Go here](https://powerful-reaches-45214.herokuapp.com/)_
 
 ## Technologies Used
