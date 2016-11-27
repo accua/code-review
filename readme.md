@@ -8,7 +8,7 @@
 
 _This webapp is called "Find". The purpose of this application is to showcase my Ruby abilities up to this point in week 1 of the Ruby track at Epicodus. This webapp can:_
   1. _Will compare two string inputs and let the user know if the word they entered matches the word they specified by showing them a counter._
-    * _Input: "cat", "cat"
+    * _Input: "cat", "cat"_
     * _Output: 1_
 
   2. _Take an inputted sentence and word from the user, it then calculates how many times the word appears in the sentence and displays that number to the user._
@@ -20,8 +20,8 @@ _This webapp is called "Find". The purpose of this application is to showcase my
     * _Output: 2_
 
   4. _Will count the word even if it is inside quotes and capitalized._
-    * _Input: '"CAT"', "cat"
-    * -Output: 2_
+    * _Input: '"CAT"', "cat"_
+    * _Output: 2_
 
 ## Setup/Installation Requirements
 
